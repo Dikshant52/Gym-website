@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,600&family=Lato&family=Raleway:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   max-width: 80vw;
+}
+
+.logo{
+    height: 70px;
+    width: 100px;
+}
+
+.navbar{
+   display: flex; 
+   height: 70px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Raleway', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+    
+}
+
+.section1{
+    max-height: 100vh; 
+}
+
+.section1 h1{
+    font-size: 3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding-left: 63px;
+    padding-right:63px ;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid #3a86ff;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.anchortag{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.footer{
+    background-color:#48bfe3 ;
+    padding: 12px 12px;
+    border-radius: 12px;
+}
+
+.callback{
+    margin-left: 10vw;
+}
+
+.enquiryform{
+    border: 2px solid blue;
+}
+
+.price{
+    background-color: #00b4d8;
+    border-radius: 12px;
+    padding: 12px 12px;
+}
+
+.pricecheck{
+    font-size: x-large;
+}
+
+.select{
+    width: 200px;
+    height: 50px;
+}

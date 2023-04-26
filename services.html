@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mx-auto">
+    <header>
+        <nav class="flex justify-between">
+            <div class="flex items-center">
+                <img src="./images/logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="navbar flex items-center">
+                <li> <a href="#section1" class="anchortag"> Home </a></li>
+                <li>Services</li>
+                <!-- <li>About Us</li> -->
+                <li> <a href="#contact" class="anchortag"> Contact</a></li>
+                <li><button type="button" class="btn btn-info">Join Now</button></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main class="min-h-screen">
+        <section class="sec1 my-2">
+            <h1> <center> Serives Offered </center></h1> 
+            <hr>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/gym training.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Gym Training</h5>
+                      <p class="card-text">The basics of gym training with body building, fat loss and weight gaining training</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/amenities.jpeg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Amenitis</h5>
+                      <p class="card-text">Different amenities like swimming pool, sauna, cafe, locker rooms, shower facility available</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/meal-plan-pic.jpeg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Diet plans</h5>
+                      <p class="card-text">Dietician in the gym for your own personalized diet plan to achieve your fitness goal</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/personal training.jpeg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Personal Training</h5>
+                      <p class="card-text">Personal Training available at gym to achieve your goal</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <hr>
+        <section class="sec2 my-2">
+            <h1><center>Amenities</center></h1>
+            <hr>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/gymswimming.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/sauna-Finland.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/dietcafe.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </main>
+    <footer class="footer flex" >
+        <div class="contact" id="contact">
+            <h2>Contact us</h2>
+            <ul>
+                <li>contact-number: +91 2534712236</li>
+                <li>Email: Powerandfit@gmail.com</li>
+                <li>Address: Lodha Tower,Borivali, Mumbai</li>
+            </ul>
+        </div>
+        <form class="callback">
+            <h2 class="font-style">Get a call from us</h2>
+            <label for="callback">Phone Number:</label>
+            <input type="text" maxlength="10" id="callback"><br>
+            <input type="submit" style="background-color: #fdfffc; padding: 3%; border-radius: 12px;" >
+        </form>
+</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
