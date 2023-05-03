@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Subscription Package</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mx-auto" style="height: 500px;">
+        <!-- Header -->
+        <header>
+            <nav class="flex justify-between">
+                <div class="flex items-center">
+                    <img src="./images/logo.png" alt="logo" class="logo">
+                </div>
+                <ul class="navbar flex items-center">
+                    <li> <a href="./index.html" class="anchortag"> Home </a></li>
+                    <li> <a href="./services.html" class="anchortag" target="_blank"> Services</a></li>
+                    <!-- <li>About Us</li> -->
+                    <li> <a href="#contact" class="anchortag"> Contact</a></li>
+                    <li><button type="button" class="btn btn-info">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+<!-- main -->
+ <main class=" min-h-screen">
+<div class="subs my-2">
+  <h1>Power and fitness</h1>
+  <h2>Subscriptions:</h2>
+  <hr>
+  <h1 class="font-style">Select a package:</h1>
+  <form class="font-style">
+    <input type="radio" id="basic" name="package" value="basic">
+    <label for="basic">Basic</label><br>
+    <input type="radio" id="prime" name="package" value="prime">
+    <label for="prime">Prime</label><br>
+    <input type="radio" id="personalTraining" name="package" value="personalTraining">
+    <label for="personalTraining">Personal Training</label><br>
+  </form>
+  <hr>
+  <h1 class="font-style">Select a package duration:</h1>
+  <form class="font-style">
+    <input type="radio" id="monthly" name="duration" value="monthly" >
+    <label for="monthly">Monthly</label><br>
+    <input type="radio" id="three-month" name="duration" value="three-month">
+    <label for="three-month">Three-Month</label><br>
+    <input type="radio" id="six-month" name="duration" value="six-month">
+    <label for="six-month">Six-Month</label><br>
+    <!-- <input type="radio" id="six-month" name="six-month" value="six-month">
+    <label for="six-month">Six-Month</label><br> -->
+    <input type="radio" id="yearly" name="duration" value="yearly">
+    <label for="yearly">Yearly</label><br>
+  </form>
+  <hr>
+  <button type="button" class="btn btn-primary btn-lg" onclick="calculate()">Calculate</button>
+  <!-- <button onclick="calculate()">Calculate</button> -->
+  <br>
+  <br>
+  <p class="calculatedprice font-style p-3" id="result" ></p>
+  <hr>
+  <br>
+<h1>For subcribing to on-going offers you need to visit gym</h1>
+<br>
+<hr>
+<br>
+<h1>For more details please contact or visit Gym</h1>
+<br>
+</div>
+
+</main>
+
+  <!-- Footer -->
+  <footer class="footer flex" >
+    <div class="contact" id="contact">
+        <h2>Contact us</h2>
+        <ul>
+            <li>contact-number: +91 2534712236</li>
+            <li>Email: Powerandfit@gmail.com</li>
+            <li>Address: Lodha Tower,Borivali, Mumbai</li>
+        </ul>
+    </div>
+    <form class="callback">
+        <h2 class="font-style">Get a call from us</h2>
+        <label for="callback">Phone Number:</label>
+        <input type="text" maxlength="10" id="callback"><br>
+        <input type="submit" style="background-color: #fdfffc; padding: 3%; border-radius: 12px;" >
+    </form>
+</footer>
+ 
+</div>
+
+  <script src="subtrial.js"></script>
+</body>
+</html>
